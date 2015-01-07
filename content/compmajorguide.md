@@ -1,3 +1,13 @@
+---
+title: Hitchhiker Guide to McGill Computer Science Major
+author: Maude Lemaire, Calem Bendell
+rights: Creative Commons Non-Commercial Share Alike 3.0
+css: - css/grids-core.css
+    - css/grids-responsive-min.css
+    - css/pure-min.css
+    - css/side-menu.css
+---
+
 
 > Welcome to computer science at McGill! 
 > Whether you're a prospective student, entering your first semester, or well on your way to graduation, this guide was made with students in mind to help you better navigate the programs offered at McGill. We're a very active community on and off campus with important ties to the industry and academia; we're constantly posting on our [Facebook group](https://www.facebook.com/groups/mcgillcs/) about the latest technologies and academic concerns. Over the past few years, our current council has found that although there are many of us that know how to navigate the program, there'll always be a few left in the dark. This guide is our solution: we hope to bring all of our students to the same page and provide as much wisdom and knowledge as possible so as to make your journey as fun as possible!
