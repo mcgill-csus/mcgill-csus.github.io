@@ -1,2 +1,0 @@
-mcgill-csus.github.io
-=====================
