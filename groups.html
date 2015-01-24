@@ -1,74 +1,93 @@
-<!DOCTYPE html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>McGill Computer Science Related Student Groups</title>
-	<link rel="stylesheet" href="css/pure-min.css" />
-	<link rel="stylesheet" href="css/side-menu.css" />
-	<link rel="stylesheet" href="css/grids-core.css">
-	<link rel="stylesheet" href="css/grids-responsive-min.css">
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Francois+One|Fjalla+One' rel='stylesheet' type='text/css'>
 
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <title>Student Groups</title>
 
-</head>
-<body style="font-family: 'Lato', sans-serif;">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<div id="layout">
-		<a href="#menu" id="menuLink" class="menu-link">
-			<span></span>
-		</a>
+    <!-- Custom styles for this template -->
+    <link href="css/modified-theme.css" rel="stylesheet">
 
-		<div id="menu">
-			<div class="pure-menu pure-menu-open">
-				<a class="pure-menu-heading" href="#">Groups</a>
 
-				<ul>
-					<li>
-						<a href="#">Back to Home</a>
-					</li>
-					<li>
-						<a href="#hackmcgill">HackMcGill</a>
-					</li>
-					<li>
-						<a href="#robotics">Robotics Team</a>
-					</li>
-					<li>
-						<a href="#mesa">E-Sports Association</a>
-					</li>
-					<li>
-					</li>
-				</ul>
-			</div>
-		</div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <style>.pkt_added {text-decoration:none !important;}</style><style type="text/css"></style></head>
 
-		<div id="main">
-			<div class="header">
-				<h1>Computer Science Related Groups</h1>
-			</div>
-		</div>
+  <body>
 
-		<div class="content">
-			<div id="hackmcgill">
-				<h1 class="content-subhead">HackMcGill</h1>
-				<p>
-					Blurb for HackMcGill
-				</p>
-			</div>
-			<div id="robotics">
-				<h1 class="content-subhead">McGill Robotics Team</h1>
-				<p>
-					Blurb for McGill Robotics Team.
-				</p>
-			</div>
-			<div id="mesa">
-				<h1 class="content-subhead">McGill E-Sports Association</h1>
-				<p>
-					Hullo blurbity blurb.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<script src="js/ui.js"></script>
-</body>
-</html>
+  <nav class="navbar navbar-pills navbar-fixed-top" role="navigation">
+  <div class="container-fluid" style="background-color:rgba(256,256,256,0.8);">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">CSUS</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="who_we_are.html">Who We Are</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student Guides <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+          <li><a href="content/compmajorguide.html">Survival Guide</a></li>
+            <li><a href="#">Joint Computer Science and Physics <b> Coming Soon! </b> </a></li>
+            <li><a href="#">Joint Computer Science and Biology <b> Coming Soon! </b> </a></li>
+            <li><a href="#">Joint Computer Science and Mathematics/Statistics<b> Coming Soon! </b> </a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student Groups <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="groups.html#hackmcgill">HackMcGill</a></li>
+            <li><a href="groups.html#robotics">McGill Robotics Team</a></li>
+            <li><a href="groups.html#mesa">McGill E-Sports Association</a></li>
+          </ul>
+        </li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <div class="container">
+      <br>
+      <br>
+      <div class="page-header">
+        <h1 style="font-size:60px; font-family:'Fjalla One'; color:#337ab7;">Student Groups</h1>
+        </div>
+        <div>
+                <h2 id="hackmcgill" style="font-family:'Fjalla One';">HackMcGill</h2>
+        <p>Find out more at <a href="http://www.hackmcgill.com">hackmcgill.com</a></p>
+		    <h2 id="robotics" style="font-family:'Fjalla One';">McGill Robotics</h2>
+        <p>McGill Robotics is an engineering design team of undergraduate students who build robots for international competitions. The team’s mission is to foster interest in robotics through competition, to cultivate a relationship with the surrounding Montreal community, and much closer to home, to create a core community at McGill via the “Team Before Machine” philosophy. </p><p>
+We prioritize team bonding and growth along with engineering accomplishment, with the belief that it takes a solid team to build a winning robot. This year we have a core team of 154 students from 14 departments including a large group of new students! We have expanded to include not only the AUV(Autonomous Underwater Vehicle) team participating in the RoboSub Competition, but also the Mars Rover Team which will be building a tele-operated Rover for a Mars-like environment as part of the University Rover Challenge. The team is also composed of a Business Team which manages the substantial organizational effort, the branding and the outreach program. </p> <p>
+The first part of the year is devoted to equipping the team with relevant skills needed for robotics and getting to know each other in a professional setting. Senior members work closely with the new students to transfer their knowledge and prepare them to be our future leaders.
+Every start of the school year, we recruit motivated and hardworking students from all years and all faculties who wish to be part of an always growing community and share their passion for engineering, design and robotics. </p> <p>
+If you want to learn more about the team, our recruitment process or our robots please reach us at <a href="mailto:mcgillroboticsteam@gmail.com">mcgillroboticsteam@gmail.com</a> or visit our website <a href="www.mcgillrobotics.com">www.mcgillrobotics.com</a>. Follow us on social media at <a href="http://www.twitter.com/mcgillrobotics">@mcgillrobotics</a> for regular updates on our progress.</p>
+
+        <h2 id="mesa" style="font-family:'Fjalla One';">McGill E-Sports Students' Association</h2>
+        <p>The McGill E-Sports Students' Association's mandate is to promote and foster the E-Sports community at McGill University.</p><p>
+We have to main goals: One - Form a network between our Club and other E-Sports associations in North America. Two - Organize events E-Sports related: LAN parties, tournaments and viewings of competitions. </p><p>
+Our current focus is on StarCraft, League of Legends, CounterStrike, Hearthstone, Smash and DotA, however we are open to expanding our coverage to include many other games in the future! 
+Our events run year round, so stay tuned to the main MESA facebook page. If you're looking for events for a specific game, go check out that game's facebook group. You can find links to those at <a href="https://www.facebook.com/mcgillesports">MESA's facebook page</a> or by searching "(GAMENAME) at Mcgill".</p>
+
+        <!-- <p><a class="btn btn-lg btn-success" href="#" role="button">Download the app</a></p> -->
+      </div>
+
+        <br>
+        <br>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
