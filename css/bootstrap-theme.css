@@ -275,7 +275,13 @@
 .navbar-fixed-bottom {
   border-radius: 0;
 }
-.navbar-toggle .icon-bar{ background-color: rgba(51, 122, 183, 1);}
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #337ab7;
+  border-radius: 1px;
+}
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > .active > a,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
