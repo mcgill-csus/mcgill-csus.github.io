@@ -1,4 +1,5 @@
-<html lang="en"><head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,11 +20,19 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-  <style>.pkt_added {text-decoration:none !important;}</style><style type="text/css"></style></head>
+  <style>.pkt_added {text-decoration:none !important;}</style><style type="text/css"></style>
+	
+	<script src="jquery.js"></script> 
+    	<script> 
+    		$(function(){
+      		$("#includedContent").load("b.html"); 
+    		});
+    	</script> 
+	
+</head>
 
   <body>
-	<link rel="import" href="nav.html">
-	 <div w3-include-html="nav.html"></div>
+	 <div> id="includedContent"></div>
   <!-- <nav class="navbar navbar-pills navbar-fixed-top" role="navigation">
   <div class="container-fluid" style="background-color:rgba(256,256,256,0.8);">
     
