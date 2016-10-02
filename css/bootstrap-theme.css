@@ -282,6 +282,9 @@
   background-color: #337ab7;
   border-radius: 1px;
 }
+.navbar .btn-navbar {
+     display: inline-block;
+}
 @media (max-width: 767px) {
   .navbar .navbar-nav .open .dropdown-menu > .active > a,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
