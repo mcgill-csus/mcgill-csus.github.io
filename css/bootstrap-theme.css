@@ -276,6 +276,7 @@
   border-radius: 0;
 }
 .navbar-toggle .icon-bar {
+  margin-bottom:2px;
   display: block;
   width: 22px;
   height: 2px;
